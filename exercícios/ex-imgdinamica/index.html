@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+
+    <p>Abra esse site em vários dispositivos diferentes ou aumente e diminua a tela do navegador</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="midia/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="midia/media.png" type="image/png">
+        <img src="midia/grande.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Música</h1>
+    <!--<audio src="midia/trilhafimdemundo.wav" controls autoplay></audio>-->
+
+    <audio preload="auto" autoplay controls loop>
+
+        <source src="midia/trilhafimdemundo.wav" type="audio/wav">
+        <source src="midia/trilhafimdemundo.ogg" type="audio/ogg">
+        <source src="midia/trilhafimdemundo.mp3" type="audio/mpeg">
+        <p>Seu navegador não reproduz esse áudio</p>
+
+    </audio>
+    
+</body>
+</html>

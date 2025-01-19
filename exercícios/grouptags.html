@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-image: linear-gradient(to right, rgb(255, 153, 0), rgb(94, 94, 189));
+            margin: 0px;
+        }
+        header{
+            background-color: lightgreen;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 50px;
+        }
+
+        nav{
+            background-color: rgb(187, 236, 187);
+            padding: 3px;
+            box-shadow: 0.5px 0.5px 2px 1px rgba(0, 0, 0, 0.39);
+        }
+
+        nav > a{
+            text-decoration: none;
+            margin-right: 10px;
+            font-weight: bold;
+            color: rgb(28, 134, 170);
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: rgb(158, 108, 33);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px 20px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.315);
+        }
+        article{
+            background-color: rgb(190, 132, 43);
+            padding: 1px;
+        }
+        article > aside{
+            background-color: rgba(165, 42, 42, 0.411);
+
+        }
+        footer{
+            background-color: rgb(66, 67, 148);
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        #ball{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(139, 70, 62);
+            border-radius: 50%;
+
+        }
+        #ball > p{
+            text-align: center;
+            padding-top: 100px;
+        } 
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Massacration</h1>
+        <nav>
+            <a href="#">The bull</a>
+            <a href="#">Evil papagali</a>
+            <a href="#">Metal bucetation</a>
+            <a href="#">Metal milkshake</a>
+            <a href="#">Metal land</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Tema">
+
+        </section>
+
+        <section id="Notícias">
+            <article>
+                <h2>Detonator cortou chibiu</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quo sequi labore molestias, nobis et hic? Omnis odio quae unde, error, a nisi alias distinctio non dolorum quidem, quam quibusdam!</p>
+                <aside>
+                    <p>Escrito por metal avenger</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Escrito por mero mortal</p>
+    </footer>
+    <div id="ball">
+        <p>bola do detonator</p>
+    </div>
+</body>
+</html>
